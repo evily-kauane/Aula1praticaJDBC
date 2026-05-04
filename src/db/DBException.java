@@ -1,4 +1,11 @@
-package db.Db;
+package db;
 
-public class Exception {
+public class DBException extends RuntimeException{
+
+    public DBException(String msg){
+
+        super(msg);
+    }
+
+
 }
